@@ -8,8 +8,7 @@ class HomePage extends Component {
   render() {
     return (
       <div>
-        <Title />
-        <Navigation />
+        <Title pageTitle="Tech4Now" />
         <SocialMedia />
       </div>
     );

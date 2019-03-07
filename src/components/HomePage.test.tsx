@@ -10,12 +10,7 @@ describe("Home Page", () => {
     expect(homepage.find("#title").length).toBe(1);
   });
 
-  it("renders the navigation bar", () => {
-    const homepage = mount(<HomePage />);
-
-    expect(homepage.find("#navigation").length).toBe(1);
-  });
-  //TODO: test that we can see Hero image
+  
 
   it("renders the social media links", () => {
     const homepage = mount(<HomePage />);
